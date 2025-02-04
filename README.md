@@ -14,7 +14,20 @@ Once installed, simply select the version you require from the dropdown and star
 
 ## Installation
 
-`tgswitch` is available for MacOS and Linux based operating systems.
+`tgswitch` is available for Windows, MacOS and Linux based operating systems.
+
+### Windows
+
+1. Download the binary from the release and extract it to a new folder under `C:\\Users\\<%USRNAME%>\\bin\\`
+2. Add that folder on your PATH environment variable
+3. Remove any other folder from the PATH that would point to a Terragrunt instance (running the command `terragrunt` should fail at this point)
+4. Create a `.tgswitch.toml` file in your %USER% path should look like this:
+```ruby
+bin = "C:\\Users\\<%USRNAME%>\\bin\\terragrunt.exe"
+```
+4. Open a new command prompt with Administrator permissions and run `tgswitch`
+5. Select a version and press Enter
+6. The version will be downloaded and extracted into the `C:\\Users\\<%USRNAME%>\\bin\\` folder for you to use
 
 ### Homebrew
 
