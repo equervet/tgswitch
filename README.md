@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/warrensbox/tgswitch.svg?branch=master)](https://travis-ci.org/warrensbox/tgswitch)
-[![Go Report Card](https://goreportcard.com/badge/github.com/warrensbox/tgswitch)](https://goreportcard.com/report/github.com/warrensbox/tgswitch)
-[![CircleCI](https://circleci.com/gh/warrensbox/tgswitch/tree/master.svg?style=shield&circle-token=d74b0de145c45b1d0da97f817363c77350e1a121)](https://circleci.com/gh/warrensbox/tgswitch)
+Note: fork of [TGSwitch](https://github.com/warrensbox/tgswitch) that is now compatible with Windows.
 
 # Terragrunt Switcher 
 
